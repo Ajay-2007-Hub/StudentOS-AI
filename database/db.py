@@ -44,5 +44,16 @@ def init_db():
         )
     """)
 
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS skill_gaps (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            target_role TEXT NOT NULL,
+            current_skills TEXT,
+            missing_skills TEXT,
+            strong_skills TEXT,
+            suggestions TEXT
+        )
+    """)
+
     conn.commit()
     conn.close()
