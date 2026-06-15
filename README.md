@@ -30,6 +30,10 @@ Project Goal
 
 The goal of StudentOS-AI is to help students organize their academic work, improve productivity, and track learning progress in one simple application.
 
+## Live Demo
+
+[Click here to view StudentOS-AI](https://studentos-ai-jjz6pw7naavacre5gwptts.streamlit.app/)
+
 Author
 
 Ajay R V
