@@ -15,21 +15,20 @@ st.set_page_config(
 )
 
 init_db()
-
 st.markdown("""
 <style>
-.main {
-    background-color: #f8fafc;
+[data-testid="stSidebar"] {
+    background-color: #eef2ff;
+}
+
+[data-testid="stSidebar"] * {
+    color: #1e293b !important;
 }
 
 .stButton>button {
     border-radius: 10px;
     padding: 8px 20px;
     font-weight: 600;
-}
-
-[data-testid="stSidebar"] {
-    background-color: #eef2ff;
 }
 
 h1, h2, h3 {
