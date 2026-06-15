@@ -33,5 +33,16 @@ def init_db():
         )
     """)
 
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS learning_logs (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            log_date TEXT,
+            subject TEXT NOT NULL,
+            topics TEXT,
+            confidence INTEGER,
+            revision_suggestion TEXT
+        )
+    """)
+
     conn.commit()
     conn.close()
