@@ -1,16 +1,16 @@
 import streamlit as st
-
+from database.db import init_db
 from modules.dashboard import show_dashboard
 from modules.task_manager import show_task_manager
 from modules.study_planner import show_study_planner
 from modules.document_chat import show_document_chat
 from modules.skill_gap import show_skill_gap
 from modules.learning_log import show_learning_log
-
+st.set_page_config(page_title="StudentOS-AI", layout="wide")
 st.set_page_config(page_title="StudentOS-AI", layout="wide")
 
 st.sidebar.title("🎓 StudentOS-AI")
-
+init_db()
 menu = st.sidebar.selectbox(
     "Menu",
     [
