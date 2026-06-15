@@ -38,3 +38,22 @@ Author
 
 Ajay R V
 B.Tech Artificial Intelligence and Data Science
+ 
+## UI Update (June 2026)
+
+- Modern, clean dashboard UI with a Home page and sidebar navigation.
+- Custom CSS, theme selector, font options, responsive layout, and feature cards.
+- KPI summary cards on the Dashboard (tasks due soon, avg study hours, completion).
+
+## Running (recommended)
+
+Create a virtual environment, install dependencies and run:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+The app uses a Streamlit theme config at `.streamlit/config.toml` and custom styles in `assets/styles.css`.
