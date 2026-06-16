@@ -1,0 +1,12 @@
+[
+  {
+    "subject": "Data Structures",
+    "note": "Trees have root, children, and leaf nodes. Use recursion for traversal.",
+    "date": "2026-06-12"
+  },
+  {
+    "subject": "Calculus",
+    "note": "Derivative of sin(x) is cos(x). Integrate with substitution when needed.",
+    "date": "2026-06-14"
+  }
+]
