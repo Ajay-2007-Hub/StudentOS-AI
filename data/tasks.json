@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Complete DBMS assignment",
+    "status": "Pending",
+    "deadline": "2026-06-30",
+    "priority": "High",
+    "category": "Study"
+  },
+  {
+    "title": "Revise Java OOP concepts",
+    "status": "Pending",
+    "deadline": "2026-07-05",
+    "priority": "High",
+    "category": "Study"
+  },
+  {
+    "title": "Prepare AI notes",
+    "status": "Pending",
+    "deadline": "2026-07-08",
+    "priority": "Medium",
+    "category": "Study"
+  },
+  {
+    "title": "Update GitHub project",
+    "status": "Pending",
+    "deadline": "2026-07-10",
+    "priority": "High",
+    "category": "Project"
+  },
+  {
+    "title": "Practice coding problems",
+    "status": "Pending",
+    "deadline": "2026-06-25",
+    "priority": "Medium",
+    "category": "Practice"
+  }
+]

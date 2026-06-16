@@ -567,9 +567,6 @@ except Exception:
 if "page" not in st.session_state:
     st.session_state.page = "Home"
 
-if "nav_radio" not in st.session_state:
-    st.session_state.nav_radio = "Home"
-
 if "messages" not in st.session_state:
     st.session_state.messages = [
         {
@@ -609,16 +606,17 @@ with st.sidebar:
     )
     
     # Navigation radio
-    nav = st.radio(
+    pages = ["Home", "Notes", "Tasks", "Study Planner", "AI Assistant", "About"]
+    selected_page = st.radio(
         "Navigate",
-        ["Home", "Notes", "Tasks", "Study Planner", "AI Assistant", "About"],
-        index=["Home", "Notes", "Tasks", "Study Planner", "AI Assistant", "About"].index(st.session_state.nav_radio),
+        pages,
+        index=pages.index(st.session_state.page),
         key="nav_radio",
     )
     
     # Update page when navigation changes
-    if nav != st.session_state.page:
-        st.session_state.page = nav
+    if selected_page != st.session_state.page:
+        st.session_state.page = selected_page
     
     st.divider()
     
@@ -670,19 +668,16 @@ def show_home():
     with col1:
         if st.button("📝 Go to Notes", use_container_width=True):
             st.session_state.page = "Notes"
-            st.session_state.nav_radio = "Notes"
             st.rerun()
     
     with col2:
         if st.button("✅ Go to Tasks", use_container_width=True):
             st.session_state.page = "Tasks"
-            st.session_state.nav_radio = "Tasks"
             st.rerun()
     
     with col3:
         if st.button("🤖 Go to AI Assistant", use_container_width=True):
             st.session_state.page = "AI Assistant"
-            st.session_state.nav_radio = "AI Assistant"
             st.rerun()
     
     st.divider()

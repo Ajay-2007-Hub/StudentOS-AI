@@ -1,0 +1,14 @@
+[
+  {
+    "subject": "DBMS",
+    "content": "Keys: Primary (unique identifier), Foreign (reference), Candidate, Super, Composite. Normalization: 1NF, 2NF, 3NF prevent anomalies. ER Model: Entities and relationships with attributes."
+  },
+  {
+    "subject": "Java",
+    "content": "Classes are blueprints for objects. Inheritance allows code reuse. Exception handling with try-catch prevents crashes. Polymorphism enables flexible code."
+  },
+  {
+    "subject": "AI",
+    "content": "Search algorithms: BFS (breadth-first), DFS (depth-first), A* (optimal). Machine learning: supervised (classification, regression), unsupervised (clustering)."
+  }
+]

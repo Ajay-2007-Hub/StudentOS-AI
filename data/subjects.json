@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Database Management Systems",
+    "teacher": "Prof. Rajesh",
+    "notes": "Focus on keys, normalization, SQL, ER model"
+  },
+  {
+    "name": "Advanced Java Programming",
+    "teacher": "Prof. Sharma",
+    "notes": "Classes, objects, inheritance, exception handling"
+  },
+  {
+    "name": "Artificial Intelligence and Decision Making",
+    "teacher": "Prof. Priya",
+    "notes": "Search algorithms, machine learning basics, decision making"
+  },
+  {
+    "name": "Discrete Mathematics",
+    "teacher": "Prof. Kumar",
+    "notes": "Sets, graphs, combinatorics, propositional logic"
+  },
+  {
+    "name": "Computer Organization and Architecture",
+    "teacher": "Prof. Yadav",
+    "notes": "CPU design, memory hierarchy, assembly language"
+  }
+]
